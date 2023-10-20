@@ -114,6 +114,7 @@ class EnvironmentOptions : public Options {
   bool experimental_https_modules = false;
   bool experimental_wasm_modules = false;
   bool experimental_import_meta_resolve = false;
+  bool bun_mode = false;
   std::string input_type;  // Value of --input-type
   std::string type;        // Value of --experimental-default-type
   std::string experimental_policy;
